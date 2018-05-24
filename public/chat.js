@@ -22,5 +22,5 @@ btn.addEventListener('click', function(){
 socket.on('chat', function(data){
     //google translate message
 
-    output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + " " + data.language + '</p>';
+    output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + '</p>';
 });
